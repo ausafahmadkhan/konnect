@@ -1,13 +1,15 @@
 Konnect : A social media app
 
-Prerequsites:
+![Alt](Konnect%20_%20A_Social_Media_App.jpeg)
+
+Pre requisites:
 
 A running *Redis* server. Port 6379\
 A running *Mongo* server. Port 27017\
 A running *Kafka* cluster. Bootstrap server port 9091
 
 
-Each module (client, feed, post, ranking and user) is a separate project.\
+Each module (client, feed, post, ranking and user) is a separate microservice.\
 Build in the following order.\
 client\
 user\
