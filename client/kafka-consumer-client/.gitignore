@@ -1,4 +1,4 @@
-/target/**
+**/target/**
 *.iml
 
 ### STS ###
@@ -11,7 +11,6 @@
 .sts4-cache
 
 ### IntelliJ IDEA ###
-../.idea
 
 ### NetBeans ###
 /nbproject/private/

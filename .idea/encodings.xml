@@ -10,5 +10,15 @@
     <file url="file://$PROJECT_DIR$/post/post-persistence/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/post/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/post/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ranking/platform/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ranking/ranking-contract/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ranking/ranking-persistence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ranking/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ranking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/platform/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/user-contract/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/user-persistence/src/main/java" charset="UTF-8" />
   </component>
 </project>

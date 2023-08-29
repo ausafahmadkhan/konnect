@@ -10,12 +10,20 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/konnect.iml" filepath="$PROJECT_DIR$/.idea/konnect.iml" />
       <module fileurl="file://$PROJECT_DIR$/feed/platform/platform.iml" filepath="$PROJECT_DIR$/feed/platform/platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/post/platform/platform (1).iml" filepath="$PROJECT_DIR$/post/platform/platform (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ranking/platform/platform (2).iml" filepath="$PROJECT_DIR$/ranking/platform/platform (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/platform/platform (3).iml" filepath="$PROJECT_DIR$/user/platform/platform (3).iml" />
       <module fileurl="file://$PROJECT_DIR$/post/post.iml" filepath="$PROJECT_DIR$/post/post.iml" />
       <module fileurl="file://$PROJECT_DIR$/post/post-contract/post-contract.iml" filepath="$PROJECT_DIR$/post/post-contract/post-contract.iml" />
       <module fileurl="file://$PROJECT_DIR$/post/post-persistence/post-persistence.iml" filepath="$PROJECT_DIR$/post/post-persistence/post-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/post-service-client/post-service-client.iml" filepath="$PROJECT_DIR$/client/post-service-client/post-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ranking/ranking.iml" filepath="$PROJECT_DIR$/ranking/ranking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ranking/ranking-contract/ranking-contract.iml" filepath="$PROJECT_DIR$/ranking/ranking-contract/ranking-contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ranking/ranking-persistence/ranking-persistence.iml" filepath="$PROJECT_DIR$/ranking/ranking-persistence/ranking-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/ranking-service-client/ranking-service-client.iml" filepath="$PROJECT_DIR$/client/ranking-service-client/ranking-service-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/redis-client/redis-client.iml" filepath="$PROJECT_DIR$/client/redis-client/redis-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-contract/user-contract.iml" filepath="$PROJECT_DIR$/user/user-contract/user-contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-persistence/user-persistence.iml" filepath="$PROJECT_DIR$/user/user-persistence/user-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/user-service-client/user-service-client.iml" filepath="$PROJECT_DIR$/client/user-service-client/user-service-client.iml" />
     </modules>
   </component>
