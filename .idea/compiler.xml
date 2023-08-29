@@ -11,18 +11,23 @@
         <module name="user-service-client" />
         <module name="post-service-client" />
         <module name="post-contract" />
-        <module name="post-persistence" />
         <module name="user-persistence" />
         <module name="kafka-producer-client" />
-        <module name="platform" />
         <module name="user-contract" />
         <module name="ranking-service-client" />
+        <module name="redis-client" />
+        <module name="platform (3)" />
+      </profile>
+      <profile name="Annotation profile for ranking" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="feed-contract" />
         <module name="ranking-persistence" />
-        <module name="redis-client" />
+        <module name="post-persistence" />
         <module name="ranking-contract" />
-        <module name="platform (3)" />
         <module name="platform (1)" />
+        <module name="platform" />
         <module name="platform (2)" />
       </profile>
     </annotationProcessing>

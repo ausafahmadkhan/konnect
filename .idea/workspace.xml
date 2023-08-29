@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5985abe0-4beb-4462-99b1-120bf89e1953" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/platform/src/main/java/com/feed/feedplatform/utility/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/feed/platform/src/main/java/com/feed/feedplatform/utility/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/event/PostEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/event/PostEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/response/PostResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/response/PostResponse.java" afterDir="false" />
-    </list>
+    <list default="true" id="5985abe0-4beb-4462-99b1-120bf89e1953" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
