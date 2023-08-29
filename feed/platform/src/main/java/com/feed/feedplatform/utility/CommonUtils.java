@@ -81,8 +81,7 @@ public class CommonUtils {
 
                 return Optional.of(postResponses);
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             logger.error("Could not call post service : {}", e.getMessage());
         }
         return Optional.empty();
@@ -100,10 +99,7 @@ public class CommonUtils {
     public UserFeedResponse rankedFeed(UserFeedResponse userFeedResponse) {
         RankingRequest rankingRequest = new RankingRequest();
         rankingRequest.setAffinityOf(userFeedResponse.getUserId());
-        List<String> followees = userFeedResponse.getPosts()
-                .stream()
-                .map(PostResponse::getUserId)
-                .collect(Collectors.toList());
+        List<String> followees = userFeedResponse.getPosts().stream().map(PostResponse::getUserId).collect(Collectors.toList());
         rankingRequest.setUserIds(followees);
 
         try {
@@ -111,20 +107,9 @@ public class CommonUtils {
             if (null != baseResponse && baseResponse.isSuccess()) {
                 RankingResponse rankingResponse = baseResponse.getData();
                 Map<String, Integer> affinityMap = rankingResponse.getAffinityMap();
-                Comparator<PostResponse> postResponseComparator = (a, b) -> {
-                    if (!a.getUserId().equals(b.getUserId())) {
-                        return affinityMap.get(b.getUserId()).compareTo(affinityMap.get(a.getUserId()));
-                    }
-                    if (a.getTotalLikes() != b.getTotalLikes()) {
-                        return (int) (b.getTotalLikes() - a.getTotalLikes());
-                    }
-                    if (a.getTotalComments() != b.getTotalComments()) {
-                        return (int) (b.getTotalComments() - a.getTotalComments());
-                    }if (a.getTotalShares() != b.getTotalShares()) {
-                        return (int) (b.getTotalShares() - a.getTotalShares());
-                    }
-                    return 0;
-                };
+                Comparator<PostResponse> postResponseComparator = Comparator.comparing((PostResponse a) -> affinityMap.get(a.getUserId()), Comparator.reverseOrder())
+                        .thenComparing(PostResponse::getUpdatedAt, Comparator.reverseOrder());
+
                 RankedUserFeedResponse rankedUserFeedResponse = new RankedUserFeedResponse();
                 List<PostResponse> postResponses = new ArrayList<>(userFeedResponse.getPosts());
                 postResponses.sort(postResponseComparator);
@@ -132,9 +117,7 @@ public class CommonUtils {
                 rankedUserFeedResponse.setRankedPosts(postResponses);
                 return rankedUserFeedResponse;
             }
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             logger.error("Could not rank feed : {}", e.getMessage());
         }
         return userFeedResponse;

@@ -5,82 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5985abe0-4beb-4462-99b1-120bf89e1953" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_konnect_ranking_contract_0_0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_konnect_user_contract_0_0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/kafka-consumer-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/classes/com/konnect/kafkaconsumer/configuration/KafkaConsumerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/classes/com/konnect/kafkaconsumer/listener/ITopicListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/classes/com/konnect/kafkaconsumer/listener/KafkaTopicListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/classes/com/konnect/kafkaconsumer/listener/ListenerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/kafka-consumer-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-consumer-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/kafka-producer-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/classes/com/konnect/kafkaproducer/client/IKafkaProducerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/classes/com/konnect/kafkaproducer/client/KafkaProducerClientImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/classes/com/konnect/kafkaproducer/configuration/KafkaProducerConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/classes/com/konnect/kafkaproducer/configuration/KafkaProducerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/kafka-producer-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/kafka-producer-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/post-service-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/classes/com/konnect/postservice/client/IPostServiceClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/classes/com/konnect/postservice/client/PostServiceClientImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/classes/com/konnect/postservice/client/PostServiceClientImpl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/classes/com/konnect/postservice/client/PostServiceClientImpl$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/classes/com/konnect/postservice/client/PostServiceClientImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/classes/com/konnect/postservice/config/PostServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/post-service-client/target/post-service-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/ranking-service-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/ranking-service-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/ranking-service-client/ranking-service-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/classes/com/konnect/postservice/client/IRankingServiceClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/classes/com/konnect/postservice/client/RankingServiceClientImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/classes/com/konnect/postservice/client/RankingServiceClientImpl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/classes/com/konnect/postservice/client/RankingServiceClientImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/classes/com/konnect/postservice/config/RankingServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ranking-service-client/target/ranking-service-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/redis-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/classes/com/konnect/redis/configuration/RedisConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/redis-client/target/redis-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/user-service-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/classes/com/konnect/userservice/client/IUserServiceClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/classes/com/konnect/userservice/client/UserServiceClientImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/classes/com/konnect/userservice/client/UserServiceClientImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/classes/com/konnect/userservice/config/UserServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/target/user-service-client-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/user-service-client/user-service-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/user-service-client/user-service-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/platform/src/main/java/com/feed/feedplatform/utility/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/feed/platform/src/main/java/com/feed/feedplatform/utility/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/event/PostEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/event/PostEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/response/PostResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/post/post-contract/src/main/java/com/post/postcontract/response/PostResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,26 +36,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/ausaf/IdeaProjects/konnect/client"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ausaf/IdeaProjects/konnect&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/user-service-client" />
       <recent name="$PROJECT_DIR$/client/redis-client" />
       <recent name="$PROJECT_DIR$/client/ranking-service-client" />
-      <recent name="$PROJECT_DIR$/client/post-service-client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/kafka-consumer-client" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="user-contract" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="user-contract" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

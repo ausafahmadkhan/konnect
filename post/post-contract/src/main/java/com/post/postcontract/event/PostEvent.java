@@ -25,4 +25,5 @@ public class PostEvent extends Event {
     private long totalLikes;
     private long totalComments;
     private long totalShares;
+    private Long updatedAt;
 }
