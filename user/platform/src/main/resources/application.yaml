@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      auto-index-creation: true
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9091
+      enable:
+        idempotence: false
+      max:
+        block:
+          ms: 10000
+      connections:
+        max:
+          idle:
+            ms: 60000

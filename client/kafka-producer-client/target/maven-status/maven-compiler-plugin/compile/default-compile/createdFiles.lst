@@ -1,0 +1,4 @@
+com/konnect/kafkaproducer/client/KafkaProducerClientImpl.class
+com/konnect/kafkaproducer/configuration/KafkaProducerConfig$1.class
+com/konnect/kafkaproducer/client/IKafkaProducerClient.class
+com/konnect/kafkaproducer/configuration/KafkaProducerConfig.class

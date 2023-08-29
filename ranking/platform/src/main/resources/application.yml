@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  data:
+    mongodb:
+      auto-index-creation: true
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9091
+      topics: PostAction
+      group-id: rankingServiceGroup
+      auto-offset-reset: earliest
