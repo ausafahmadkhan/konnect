@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feed/feed.iml" filepath="$PROJECT_DIR$/feed/feed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feed/feed-contract/feed-contract.iml" filepath="$PROJECT_DIR$/feed/feed-contract/feed-contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/kafka-consumer-client/kafka-consumer-client.iml" filepath="$PROJECT_DIR$/client/kafka-consumer-client/kafka-consumer-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/kafka-producer-client/kafka-producer-client.iml" filepath="$PROJECT_DIR$/client/kafka-producer-client/kafka-producer-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/konnect.iml" filepath="$PROJECT_DIR$/.idea/konnect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feed/platform/platform.iml" filepath="$PROJECT_DIR$/feed/platform/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/post/platform/platform (1).iml" filepath="$PROJECT_DIR$/post/platform/platform (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/post/post.iml" filepath="$PROJECT_DIR$/post/post.iml" />
+      <module fileurl="file://$PROJECT_DIR$/post/post-contract/post-contract.iml" filepath="$PROJECT_DIR$/post/post-contract/post-contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/post/post-persistence/post-persistence.iml" filepath="$PROJECT_DIR$/post/post-persistence/post-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/post-service-client/post-service-client.iml" filepath="$PROJECT_DIR$/client/post-service-client/post-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/ranking-service-client/ranking-service-client.iml" filepath="$PROJECT_DIR$/client/ranking-service-client/ranking-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/redis-client/redis-client.iml" filepath="$PROJECT_DIR$/client/redis-client/redis-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/user-service-client/user-service-client.iml" filepath="$PROJECT_DIR$/client/user-service-client/user-service-client.iml" />
+    </modules>
+  </component>
+</project>
