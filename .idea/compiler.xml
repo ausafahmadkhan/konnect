@@ -15,8 +15,8 @@
         <module name="post-persistence" />
         <module name="redis-client" />
         <module name="kafka-producer-client" />
-        <module name="platform" />
         <module name="platform (1)" />
+        <module name="platform" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
