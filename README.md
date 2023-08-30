@@ -1,5 +1,7 @@
 Konnect : A social media app
 
+[Presentation on Konnect](https://docs.google.com/presentation/d/1eB4AzLlFdBxkq7I2UY9-RCLlt3T_pPRQsHdVMDfRQ84/edit?usp=sharing)
+
 ![Alt](Konnect%20_%20A_Social_Media_App.jpeg)
 
 Pre requisites:
