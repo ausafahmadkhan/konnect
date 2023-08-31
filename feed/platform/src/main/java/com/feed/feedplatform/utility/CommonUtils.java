@@ -67,6 +67,9 @@ public class CommonUtils {
     }
 
     private Optional<List<PostResponse>> getPostDetailsFromPostService(List<String> postIds) {
+        if (null == postIds || postIds.isEmpty()) {
+            return Optional.empty();
+        }
         try {
             GetPostsByIdRequest getPostsByIdRequest = new GetPostsByIdRequest();
             getPostsByIdRequest.setPostIds(postIds);
