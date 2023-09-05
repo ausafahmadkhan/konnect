@@ -12,14 +12,10 @@ A running *Kafka* cluster. Bootstrap server port 9091
 
 
 Each module (client, feed, post, ranking and user) is a separate microservice.\
-Build in the following order.\
-client\
-user\
-post\
-ranking\
-feed
 
+Build in the following order.\
 Use scripts to *build*\
+
 client -> installMinClients.sh\
 user  -> install.sh\
 post  -> install.sh\
@@ -28,6 +24,7 @@ client -> installAllClients.sh\
 feed  -> install.sh
 
 Use scripts to *build and run*\
+
 user  -> installAndRun.sh\
 post  -> installAndRun.sh\
 ranking  -> installAndRun.sh\
