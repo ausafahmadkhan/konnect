@@ -19,11 +19,17 @@ post\
 ranking\
 feed
 
-Use scripts to build and run\
+Use scripts to *build*\
 client -> installMinClients.sh\
 user  -> install.sh\
 post  -> install.sh\
 ranking  -> install.sh\
 client -> installAllClients.sh\
 feed  -> install.sh
+
+Use scripts to *build and run*\
+user  -> installAndRun.sh\
+post  -> installAndRun.sh\
+ranking  -> installAndRun.sh\
+feed  -> installAndRun.sh
 
