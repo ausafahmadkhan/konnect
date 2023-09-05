@@ -20,9 +20,10 @@ ranking\
 feed
 
 Use scripts to build and run\
-client -> buildAllClients.sh\
-user  -> buildAndRun.sh\
-post  -> buildAndRun.sh\
-ranking  -> buildAndRun.sh\
-feed  -> buildAndRun.sh
+client -> installMinClients.sh\
+user  -> install.sh\
+post  -> install.sh\
+ranking  -> install.sh\
+client -> installAllClients.sh\
+feed  -> install.sh
 
